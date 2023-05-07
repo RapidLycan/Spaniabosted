@@ -13,6 +13,7 @@ import { ProjectsGridComponent } from './Components/projects-grid/projects-grid.
 
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatIconModule } from '@angular/material/icon';
+import { LandingComponent } from './Components/landing/landing.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { MatIconModule } from '@angular/material/icon';
     Project1Component,
     Project2Component,
     ProjectsGridComponent,
+    LandingComponent,
   ],
   imports: [
     BrowserModule,
