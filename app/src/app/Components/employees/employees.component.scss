@@ -1,0 +1,15 @@
+.row {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-between;
+
+  text-align: center;
+
+  img {
+    margin: 2rem 4rem;
+    margin-bottom: 0;
+    height: 17rem;
+    border-radius: 20px;
+  }
+}

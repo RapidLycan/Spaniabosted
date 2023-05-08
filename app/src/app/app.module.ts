@@ -14,6 +14,8 @@ import { ProjectsGridComponent } from './Components/projects-grid/projects-grid.
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatIconModule } from '@angular/material/icon';
 import { LandingComponent } from './Components/landing/landing.component';
+import { EmployeesComponent } from './Components/employees/employees.component';
+import { MatTabsModule } from '@angular/material/tabs';
 
 @NgModule({
   declarations: [
@@ -25,6 +27,7 @@ import { LandingComponent } from './Components/landing/landing.component';
     Project2Component,
     ProjectsGridComponent,
     LandingComponent,
+    EmployeesComponent,
   ],
   imports: [
     BrowserModule,
@@ -32,6 +35,7 @@ import { LandingComponent } from './Components/landing/landing.component';
     BrowserAnimationsModule,
     MatGridListModule,
     MatIconModule,
+    MatTabsModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

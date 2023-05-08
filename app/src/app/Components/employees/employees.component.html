@@ -1,0 +1,8 @@
+<div class="row">
+  <div *ngFor="let employee of employees | slice : 0 : 4">
+    <img src="{{ employee.img }}" alt="" class="" />
+    <p class="name">{{ employee.name }}</p>
+    <p class="">{{ employee.position }}</p>
+    <p class="">{{ employee.description }}</p>
+  </div>
+</div>
