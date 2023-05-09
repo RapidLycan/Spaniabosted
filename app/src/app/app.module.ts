@@ -18,6 +18,7 @@ import { EmployeesComponent } from './Components/employees/employees.component';
 import { MatTabsModule } from '@angular/material/tabs';
 import { MatDialogModule } from '@angular/material/dialog';
 import { CookiesComponent } from './Components/cookies/cookies.component';
+import { CookieService } from 'ngx-cookie-service';
 
 @NgModule({
   declarations: [
@@ -41,7 +42,7 @@ import { CookiesComponent } from './Components/cookies/cookies.component';
     MatTabsModule,
     MatDialogModule,
   ],
-  providers: [],
+  providers: [CookieService],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
