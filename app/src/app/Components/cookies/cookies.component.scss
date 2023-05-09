@@ -1,0 +1,23 @@
+.popup {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+
+  padding: 1rem;
+
+  p {
+    max-width: 70%;
+    text-align: center;
+  }
+
+  button {
+    background-color: white;
+    color: #004264;
+    border-color: #004264;
+    padding: 10px;
+    border-radius: 30px;
+    border-style: solid;
+  }
+}

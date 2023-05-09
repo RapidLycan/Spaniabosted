@@ -16,6 +16,8 @@ import { MatIconModule } from '@angular/material/icon';
 import { LandingComponent } from './Components/landing/landing.component';
 import { EmployeesComponent } from './Components/employees/employees.component';
 import { MatTabsModule } from '@angular/material/tabs';
+import { MatDialogModule } from '@angular/material/dialog';
+import { CookiesComponent } from './Components/cookies/cookies.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +30,7 @@ import { MatTabsModule } from '@angular/material/tabs';
     ProjectsGridComponent,
     LandingComponent,
     EmployeesComponent,
+    CookiesComponent,
   ],
   imports: [
     BrowserModule,
@@ -36,6 +39,7 @@ import { MatTabsModule } from '@angular/material/tabs';
     MatGridListModule,
     MatIconModule,
     MatTabsModule,
+    MatDialogModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
