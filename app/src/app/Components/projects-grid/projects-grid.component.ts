@@ -9,35 +9,35 @@ export class ProjectsGridComponent {
   @Input() limit: number = 8;
   data = [
     {
-      name: 'Project 1rt',
+      name: 'Prosjekt 1rt',
       link: 'Expansion',
     },
     {
-      name: 'Project 1ft',
+      name: 'Prosjekt 1ft',
       link: 'Expansion',
     },
     {
-      name: 'Project 2hl',
+      name: 'Prosjekt 2hl',
       link: 'Expansion',
     },
     {
-      name: 'Project 12x',
+      name: 'Prosjekt 12x',
       link: 'Expansion',
     },
     {
-      name: 'Project 3ox',
+      name: 'Prosjekt 3ox',
       link: 'Innovation',
     },
     {
-      name: 'Project 5pl',
+      name: 'Prosjekt 5pl',
       link: 'Innovation',
     },
     {
-      name: 'Project 9tx',
+      name: 'Prosjekt 9tx',
       link: 'Innovation',
     },
     {
-      name: 'Project 9sx',
+      name: 'Prosjekt 9sx',
       link: 'Innovation',
     },
   ];
